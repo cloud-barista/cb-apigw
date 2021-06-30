@@ -1,3 +1,19 @@
+
+# v0.4.0 (Cafe Mocha) (2021.06.30.)
+
+### Feature
+
+- 기본값 설정 정리, timeout 등 승계 처리 및 코드 재 정리 ([#45](https://github.com/cloud-barista/cb-apigw/pull/45))
+- Backend Error with Response (bypass, return_error_detils) 반영 ([#47](https://github.com/cloud-barista/cb-apigw/pull/47))
+
+
+### Bug Fix
+
+- Api definition file 수정시 Process Kill 발생 오류 수정 및 기타 조정 ([#43](https://github.com/cloud-barista/cb-apigw/pull/43))
+- 컨테이너로 실행 시 "no such file or directory" 에러 발생 수정 ([#49](https://github.com/cloud-barista/cb-apigw/pull/49))
+- conf/apis/*.yaml 파일 수정시 restapigw 강제 종료됨. 처리 적용 ([#54](https://github.com/cloud-barista/cb-apigw/pull/54))
+
+
 # v0.3.5
 
 [conf/apis/*.yaml 파일 수정시 restapigw 강제 종료됨. 처리 적용 #54]
